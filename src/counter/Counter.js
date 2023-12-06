@@ -4,7 +4,6 @@ import { decrement, decrementByAmount, increment, incrementByAmount, reset } fro
 
 export function Counter() {
   const count = useSelector((state) => state.counter.value)
-  const value = useSelector((state) => state.counter.count)
   const dispatch = useDispatch()
 console.log(count)
   return (
